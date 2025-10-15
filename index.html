@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Торт Рекомендатор</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="survey">
+    <div class="question-container">
+      <div class="question" id="question"></div>
+      <div class="options">
+        <label><input type="radio" name="answer" value="yes" /> Да</label><br />
+        <label><input type="radio" name="answer" value="maybe" /> Возможно</label><br />
+        <label><input type="radio" name="answer" value="no" /> Нет</label><br />
+        <label><input type="radio" name="answer" value="idk" /> Не знаю</label><br />
+      </div>
+      <button id="next-btn">Далее</button>
+    </div>
+
+    <div id="decor-elements-container"></div>
+
+    <button id="generate-btn">Сгенерировать промпты (5 вариантов)</button>
+    <div id="generated-prompts"></div>
+  </div>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

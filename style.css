@@ -1,0 +1,10 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.question-container {
+  margin-bottom: 20px;
+}
+#generated-prompts {
+  margin-top: 20px;
+}
